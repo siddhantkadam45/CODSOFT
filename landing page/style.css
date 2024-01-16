@@ -1,0 +1,290 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+
+#carimg{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    
+    height: 720px;
+    position: absolute;
+    perspective: 500px;
+}
+.headingholder{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.wheels{
+    display: flex;
+    align-items: center;
+}
+#wheeltag{
+    margin: 15px;
+    padding-top:10px;
+   
+}   
+#wheelimg{
+    width: 2rem;
+    height: 2rem;
+    transform: rotate3d(0, 3, 0, 60deg);
+}
+a{
+    text-decoration: none;
+    color:#b2c4c6;
+}
+#navspace{
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+
+    justify-content: space-between;
+}
+li{
+   
+    margin-right: 50px;
+   
+}
+#bknow{
+    border: solid grey;  
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.explore{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    top: 100px;
+   
+}
+.para{
+    position: absolute;
+  
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    top: 10rem;
+}
+.buttonforstart {
+   
+    margin-left: 42rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 40rem;
+}
+
+
+.buttonforstart button{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 1rem;
+    font-size: 19px;
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+.trusted{
+   
+    position: absolute;
+    top: 48rem;
+    text-align: center;
+    margin-left: 42rem;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    top: 51rem;
+   
+    width: 100%;
+    justify-content: space-around;
+
+}
+#imgo{
+    width: 15rem;
+    height: 70px;
+}
+#imgt{
+    width: 15rem;
+    height: 80px;
+}
+#imgth{
+    width: 15rem;
+    height: 70px;
+}
+.ourfleet{
+   
+    width: 100%;
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    top:60rem;
+    align-items: center;
+    
+}
+.ourf{
+
+    width: 10rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+.ourfleettext{
+    text-align: center;
+
+    font-size: 17px;
+    margin-right: 1rem;
+    width: 18rem;
+}
+.carimages{
+    position: absolute;
+    display: grid;
+    grid-template-areas: initial;
+    column-gap: 10rem;
+   
+    grid-template-columns: repeat( 3, minmax(250px, 1fr) );
+    top:65rem;
+    
+    margin-left: 12rem;
+    margin-right:10rem;
+    row-gap: 5rem;
+    
+      
+}
+.suv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.suv img{
+    width: 19rem;
+}
+.audi{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.audi img{
+    width: 20rem;
+}
+
+.pick{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con img{
+    width: 15rem;
+}
+.land{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.land img{
+    width: 15rem;
+}
+.tesla{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tesla img{
+    width: 20rem;
+  
+}
+.seemore{
+    top:100rem;  
+    width: 100%;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seemore button{
+    width: 10rem;
+    font-size: 20px;
+    border-radius: 30px;
+    background: #000;
+    color: wheat;
+    cursor: pointer;
+}
+.whatmuu{
+    position: absolute;
+    top: 105rem;
+
+    width: 100%;
+    background: #000;
+}
+.what{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#imgrr{
+    width: 100%;
+    height: 100%;
+    margin-right: 16rem;
+}
+.imageandinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.allinfoabout{
+    color: white;
+    margin-left: 4rem;
+ 
+}
+.footersection{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    top: 130rem;
+    text-align: center;
+}
+.aii{
+    color: rgb(96, 113, 113);
+    font-size: 2rem;
+    cursor: pointer;
+
+}
