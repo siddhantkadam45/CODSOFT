@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+  }
+  
+  .bg-red{
+    background: rgb(45, 137, 217);
+  }
+  #bodyc{
+    background: rgb(159,148,144);
+    background: linear-gradient(90deg, rgba(159,148,144,1) 0%, rgba(216,198,197,1) 40%, rgba(118,113,107,1) 100%);
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column ;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+  #orange{
+    background-color: aliceblue;
+  }
+  
