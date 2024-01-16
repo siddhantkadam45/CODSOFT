@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.container{
+    width: 100%;
+    /* border: solid red; */
+}
+.imagestart{
+    position: absolute;
+    width: 100%;
+    border-radius: 2rem;
+    height: 30rem;
+    object-fit: cover;
+    /* margin-left: 3rem; */
+    /* margin-right: ; */
+    align-items: center;
+}
+.heading{
+    position: absolute;
+    color: rgb(239, 244, 236);
+    top: 12rem;
+    margin-left: 25rem;
+    text-align: center;
+    /* border: solid red; */
+}
+
+.tagid{
+    position: absolute;
+    color: rgb(236, 239, 233);
+    top: 14rem;
+    margin-left: 25rem;
+    text-align: center;
+    /* border: solid red; */
+    font-size: 20px;
+}
+#aboutme{
+    /* border: solid red; */
+    position: relative;
+    top: 33rem;
+    width: 84rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background: #45788b;
+}
+.aboutme h1{
+    margin-bottom: 1rem;
+    /* margin-left: 25rem; */
+}
+.titlebar{
+    display: flex;
+    position: absolute;
+    /* top: 100rem; */
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    /* border: solid red; */
+    align-items: center;
+    text-align: center;
+}
+.sidheading{
+    /* border: solid yellow; */
+    /* background: #000; */
+    color: rgb(242, 216, 216);
+    margin-left: 2rem;
+    font-size: 20px;
+    
+}
+
+.navsection a{
+    margin: 3rem;
+    /* border: solid yellow; */
+    /* color: rgb(242, 216, 216); */
+    color: rgb(242, 216, 216);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.skills{
+    position: absolute;
+    top: 45rem;
+    /* border: solid red; */
+    display: flex;
+    margin-left: 1rem;
+    background:#b91914;
+    border-radius: 1rem;
+    transition: width 3s ease 5s;
+    transition-property: all;
+}
+.skills :hover{
+    width: 80rem;
+}
+#sl{
+    margin: 2rem;
+}
+#exp{
+    margin: 2rem;
+}
+#myservices{
+    position: absolute;
+    top: 65rem;
+    /* border: solid red; */
+    margin-left: 1rem;
+    transition: background 0.5s, transform 0.5s;
+}
+#descmys{
+    position: absolute;
+    top: 68rem;
+    /* border: solid red; */
+    margin-right: 20rem;
+    margin-left: 20rem;
+
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background: #1bb532;
+    transition: width 5s ease-in 5s;
+  
+}
+#descmys :hover{
+    /* width: 300px; */
+    /* height: 300px; */
+    /* transform: rotate(10deg); */
+    width: 100vw;
+}
+#myservices:hover {
+    background: #c40000;
+    transform: translateY(-10px);
+    margin-right: 20rem;    
+}
+#descmys a{
+    text-decoration: none;
+    color:rgb(219, 197, 197);
+}
+#mywork{
+    position: absolute;
+    top: 78rem;
+    margin-left: 1rem;
+}
+#mywimage{
+    position: absolute;
+    top: 80rem;
+    margin-left: 1rem;
+    /* border: solid rebeccapurple; */
+}
+#mywimage img{
+    position: relative;
+    top: 1rem;
+    width: 50rem;
+    border-radius: 1rem;
+    border: solid black;
+}
+#mywimage  div{
+    position: relative;
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    top: 2rem;
+    text-align: center;
+    /* width: 10rem; */
+}
+#mywimage  div button{
+    width: 10rem;
+    border-radius: 1rem;
+    color: white;
+    background: #000;
+    cursor: pointer;
+}
+
+#cont{
+    position: absolute;
+    top: 115rem;
+    /* border: solid red; */
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+#cont p{
+    font-size: 2rem;
+    /* margin-left: 1rem; */
+    margin-top: 2rem;
+}
+.form{
+    position: relative;
+    top:125rem;
+    margin-left: 1rem;
+    /* border: solid red; */
+}
+#youn{
+    width: 35rem;
+    background: #e31358;
+    border-radius: 1rem;
+    height: 3rem;
+    color: white;
+}
+#fore{
+    width: 40rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background: #e31358;
+    color: white;
+
+}
+#ymess{
+    width: 60rem;
+    height: 6rem;
+    border-radius: 2rem;
+    background: #e31358;
+    color: white;
+}
+
+#sub{
+    width: 10rem;
+    height: 2rem;
+    background: #e31358;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#ff{
+    position: absolute;
+    top: 155rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+    background: #c7c2c4;
+}
