@@ -1,0 +1,44 @@
+Go to developers Console 
+Create file (File->new->apex class)
+Enter class name - SimpleCalculator
+paste the following code
+------------------------------------------------------------------------
+public class SimpleCalculator {
+
+    public static Integer add(Integer num1, Integer num2) {
+        return num1 + num2;
+    }
+
+    public static Integer subtract(Integer num1, Integer num2) {
+        return num1 - num2;
+    }
+
+    public static Integer multiply(Integer num1, Integer num2) {
+        return num1 * num2;
+    }
+
+    public static Decimal divide(Integer num1, Integer num2) {
+        if (num2 == 0) {
+            return null; 
+        }
+        return num1 / num2;
+    }
+}
+-------------------------------------------------------------------------
+For executing - click debug->Open Execute Anonymous Window 
+paste the following code to run the apex program
+--------------------------------------------------------------------------
+Integer result = SimpleCalculator.add(5, 3);
+System.debug('Result of addition: ' + result); 
+
+result = SimpleCalculator.subtract(10, 4);
+System.debug('Result of subtraction: ' + result); 
+
+result = SimpleCalculator.multiply(2, 6);
+System.debug('Result of multiplication: ' + result); 
+
+Decimal divisionResult = SimpleCalculator.divide(10, 2);
+System.debug('Result of division: ' + divisionResult); 
+----------------------------------------------------------------------------
+
+****This is code of a simple Program without executable file****

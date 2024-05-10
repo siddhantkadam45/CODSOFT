@@ -1,0 +1,5 @@
+Click Activate Cloud Shell
+type nano example.py
+type python code save it (Ctrl + O & Enter)
+Press Ctrl + X for exit
+type python example.py for executing
